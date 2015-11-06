@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rorlig/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta2/392c3d09e0f5e7087544093cc0cb23bb9c7af5fa/converter-gson-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="392c3d09e0f5e7087544093cc0cb23bb9c7af5fa">
+        <dex dex="/Users/rorlig/Documents/work/verizon/redirector/android/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta2-f4740691694f09fa05ca970faac848d6f14a9c41.jar" />
+    </item>
+    <item
+        jar="/Users/rorlig/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/rorlig/Documents/work/verizon/redirector/android/app/build/intermediates/pre-dexed/debug/gson-2.3.1-3757dc3d050322746a843b592148bbbe57ed62de.jar" />
+    </item>
+
+</items>
