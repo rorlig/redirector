@@ -1,4 +1,4 @@
-package com.verizon.redirector;
+package com.rorlig.redirector;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -16,9 +16,10 @@ import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.RequestBody;
-import com.verizon.redirector.model.DummyRequest;
-import com.verizon.redirector.model.DummyResult;
-import com.verizon.redirector.retrofit.RedirectorService;
+import com.verizon.redirector.R;
+import com.rorlig.redirector.model.DummyRequest;
+import com.rorlig.redirector.model.DummyResult;
+import com.rorlig.redirector.retrofit.RedirectorService;
 
 import java.io.IOException;
 
@@ -34,10 +35,12 @@ public class MainActivity extends AppCompatActivity {
     Button getRedirectBtn;
     Button postRedirectBtn;
     private RedirectorService service;
-    private static final String  BASE_URL = "http://localhost:9000/api/redirector";
+    private static final String  BASE_URL = "http://localhost:9000";
 
-    private static final String  BASE_URL_EMULATOR = "http://10.0.2.2:9000/api/redirector";
+    //Android emulator base url
+    private static final String  BASE_URL_EMULATOR = "http://10.0.2.2:9000";
 
+    //Genymotion emulator base url
     private static final String  BASE_URL_GENYMOTION_EMULATOR = "http://10.0.3.2:9000";
 
     public static final MediaType JSON

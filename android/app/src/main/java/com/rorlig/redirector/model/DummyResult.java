@@ -1,4 +1,4 @@
-package com.verizon.redirector.model;
+package com.rorlig.redirector.model;
 
 /**
  * @author gaurav gupta

@@ -1,4 +1,4 @@
-package com.verizon.redirector;
+package com.rorlig.redirector;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

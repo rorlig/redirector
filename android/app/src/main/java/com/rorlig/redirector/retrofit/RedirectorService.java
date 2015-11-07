@@ -1,8 +1,8 @@
-package com.verizon.redirector.retrofit;
+package com.rorlig.redirector.retrofit;
 
 
-import com.verizon.redirector.model.DummyRequest;
-import com.verizon.redirector.model.DummyResult;
+import com.rorlig.redirector.model.DummyRequest;
+import com.rorlig.redirector.model.DummyResult;
 
 import retrofit.Call;
 import retrofit.http.Body;
